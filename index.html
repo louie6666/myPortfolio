@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louie Lusterio | Portfolio</title>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+
+        <div class="section profile-header">
+            <div class="profile-container">
+
+                <div class="profile-pic">
+                    <div class="neon-wrapper">
+                        <img src="picture/profile.jpg" alt="Louie Light" class="main-img">
+                        <img src="picture/secondProfile.jpg" alt="Louie Light Hover" class="hover-img">
+                        <img src="picture/sleeping.jpg" alt="Louie Dark" class="dark-main-img">
+                        <img src="picture/nanisko.jpg" alt="Louie Dark Hover" class="dark-hover-img">
+                    </div>
+                </div>
+
+                <div class="profile-info">
+                    <div class="theme-switch-wrapper">
+                        <div class="theme-switch" id="theme-toggle">
+                            <div class="switch-handle">
+                                <i data-lucide="sun" id="inner-icon"></i>
+                            </div>
+                            <div class="switch-icons">
+                                <i data-lucide="moon" style="width:14px; height:14px;"></i>
+                                <i data-lucide="sun" style="width:14px; height:14px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h1 class="name">Louie Lusterio</h1>
+                    <p style="color: #888" class="location">
+                        <i data-lucide="map-pin" class="icon-style"></i> 
+                        Mahayag, Zamboanga del Sur
+                    </p>
+                    <p style="color: #888" class="title">IT Student | Aspiring Web Developer</p>
+
+                    <a href="mailto:yourname@email.com" class="email-btn">
+                        Send Email <i data-lucide="mail" class="btn-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-layout">
+
+            <div class="section about-section">
+                <h2 class="section-title">
+                    <i data-lucide="user" class="title-icon"></i> About
+                </h2>
+                <div class="about-content">
+                    <p>I am a 3rd-year IT student. If I’m being honest, I originally chose IT just to get a diploma. But along the way, I realized how cool it actually is. What started as just a goal to graduate turned into a real hobby, and now I’m genuinely interested in how everything works behind the scenes..</p>
+                    <p>Right now, I’m focused on mastering HTML, CSS, and JavaScript. I enjoy "vibe coding" at home—taking what we learn at school, like PHP and XAMPP, and practicing it on my own. I like building simple things, like login pages, just to see if I can turn what I learn in class into something real and working.</p>
+                    <p>I’ve discovered that I really like the technical side of things. There’s something satisfying about figuring out how a few lines of code can create a professional-looking website. I’m a big fan of minimalism—keeping things simple, clean, and easy to use.</p>
+                    <p>My time at J.H. Cerilles State College really opened my eyes. It gave me the foundation I needed to realize that IT is actually fun. Now, I spend a lot of my free time experimenting with new layouts and trying to keep up with the latest trends in web design.</p>
+                    <p>Looking ahead, my goal is to become a Full-Stack Developer. I’m excited about where the web is going, and I’m dedicated to perfecting the front-end, one div at a time, until I’m ready to build entire systems from scratch.</p>
+                </div>
+            </div>
+
+            <div class="column-right">
+
+                <div class="section education-section">
+                    <h2 class="section-title">
+                        <i data-lucide="graduation-cap" class="title-icon"></i> Education
+                    </h2>
+                    <div class="education-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>College</h3>
+                                <p style="color: #888">J.H Cerilles State College</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>High School</h3>
+                                <p style="color: #888">Panagaan National High School</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Elementary</h3>
+                                <p style="color: #888">Ceferino Alcomendras Elementary School</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">
+                        <i data-lucide="hammer" class="title-icon"></i> Skills and Hobbies
+                    </h2>
+
+                    <div class="skills-content">
+                        <p style="color: #888; margin-bottom: 15px;">I have some knowledge in</p>
+
+                        <div class="skills-grid">
+                            <p class="skill-label">Frontend</p>
+                            <div class="skills-container">
+                                <div class="skill-badge"><i class="fab fa-html5"></i> HTML</div>
+                                <div class="skill-badge"><i class="fab fa-css3-alt"></i> CSS</div>
+                                <div class="skill-badge"><i class="fab fa-js"></i> JavaScript</div>
+                                <div class="skill-badge"><i class="fab fa-react"></i> React</div>
+                            </div>
+
+                            <p class="skill-label">Backend</p>
+                            <div class="skills-container">
+                                <div class="skill-badge"><i class="fab fa-php"></i> PHP</div>
+                                <div class="skill-badge">
+                                    <img src="picture/xampplogo.png" alt="XAMPP"> XAMPP
+                                </div>
+                            </div>
+
+                            <p class="skill-label">Online Games I play</p>
+                            <div class="skills-container">
+                                <div class="skill-badge"><img src="picture/dota2.png"> Dota 2</div>
+                                <div class="skill-badge"><img src="picture/mlbb.png"> MLBB</div>
+                                <div class="skill-badge"><img src="picture/hok.png"> HOK</div>
+                            </div>
+                        </div>
+                    </div>
+                </div> </div> </div> </div> <footer class="full-width-footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>&copy; 2026 Louie Lusterio. All rights reserved.</p>
+            </div>
+
+            <div class="footer-right">
+                <a href="https://facebook.com/yourprofile" target="_blank" class="social-link" title="Facebook">
+                    <i data-lucide="facebook"></i>
+                </a>
+                <a href="#" class="back-to-top" title="Back to Top">
+                    <i data-lucide="arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
